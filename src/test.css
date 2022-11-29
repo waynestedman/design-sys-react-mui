@@ -1,0 +1,35 @@
+.testContainer {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+}
+
+.card {
+  flex: 1;
+  max-width: 400px;
+  height: auto;
+  background-color: aliceblue;
+  margin: 2rem 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.cardTitle {
+  color: darkslateblue;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.cardBody {
+  color: #333;
+  font-weight: 400;
+}
+
+.cardButton {
+  background-color: blanchedalmond;
+  color: #333;
+  border-radius: 20px;
+  border: 1px solid #666;
+}
