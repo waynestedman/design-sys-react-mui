@@ -1,5 +1,5 @@
 import { createTheme } from "@mui/material/styles";
-import tokens from './tokens.json';
+import tokens from './transformed-tokens.json';
 
 const theme = createTheme({
   palette: {
